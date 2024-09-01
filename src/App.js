@@ -103,7 +103,6 @@ class DrumPad extends Component {
       });
     }
     
-    
 
     playSound(){
       const audio = document.getElementById(this.props.sound.key);
